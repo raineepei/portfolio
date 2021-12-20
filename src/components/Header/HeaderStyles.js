@@ -20,6 +20,11 @@ export const Container = styled.div`
 export const Span = styled.span`
   font-size: 18px;
   margin-top: 20px;
+  &:hover {
+    color: #0857C3;
+    opacity: 1;
+    cursor: pointer;
+  }
 `;
 
 export const Div1 = styled.div`

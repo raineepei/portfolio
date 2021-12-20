@@ -5,10 +5,11 @@ import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
+
 const Header = () =>  (
-  <Container id="home">
+  <Container>
     <Div1>
-      <Link href="#home">
+      <Link href="/">
         <a style={{ display:"flex", alignItems: "center", color: "black", fontWeight: "bold" }}>
           <Span>rainee pei.</Span>
         </a>
@@ -16,7 +17,7 @@ const Header = () =>  (
     </Div1>
     <Div3>
       <li>
-        <Link href='#projects'>
+        <Link href='/#projects'>
           <NavLink>projects</NavLink>
         </Link>
       </li>
