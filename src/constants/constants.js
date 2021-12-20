@@ -4,7 +4,7 @@ export const projects = [
     description: "Design and development of a student loans and budgeting app aimed to help students transition into financial independence. My first software engineering and design internship :-)",
     image: ' ',
     tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
+    source: 'Loane',
     visit: 'https://google.com',
     id: 0,
   },

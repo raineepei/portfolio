@@ -10,7 +10,7 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <button onPress={() => Linking.openURL('mailto:pei.rainee@gmail.com') }>email</button>
+          <LinkTitle href="google.com">email</LinkTitle>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle href="https://github.com/raineepei">github</LinkTitle>

@@ -14,9 +14,11 @@ const Projects = () => (
         <BlogCard key={project.id}>
           <Img src={project.image} />
           <TitleContent>
-            <HeaderThree title>
-                {project.title}
-            </HeaderThree>
+            <Link href='/Pages/Loane'>
+              <HeaderThree>
+                  {project.title}
+              </HeaderThree>
+            </Link>
           </TitleContent>
           <CardInfo>{project.description}</CardInfo>
         </BlogCard>
