@@ -2,11 +2,12 @@ import React from 'react';
 import Link from 'next/link'
 import { Layout } from '../../layout/Layout';
 import { LoaneTitle, LinkList, LinkColumn, LinkTitle, BackgroundInfo, GridContainer, BlogCard, CardInfoAbout, ImgAbout, TitleContent, 
-DescriptionContent, Section, SectionTitleIntro, SectionTitleDescription } from '../../components/Loane/LoaneStyles';
-import { loane1 } from '../../components/Loane/LoaneConstants'
+DescriptionContent, Section, SectionTitleIntro, SectionTitleDescription, TitleContentSmall, DescriptionContentSmall } from '../../components/Loane/LoaneStyles';
+import { loane1, loane2 } from '../../components/Loane/LoaneConstants'
 
 import "@fontsource/roboto-mono"
 import styled from 'styled-components'
+import { Img } from '../../components/ProjectsStyles';
 
 const LinkColor = styled.a`
   color: black;
@@ -81,7 +82,7 @@ const Loane = () => (
 
     <Section>
         <SectionTitleIntro>
-            Planning (Weeks 1-2)
+            PLANNING (WEEKS 1-2)
         </SectionTitleIntro>
         <SectionTitleDescription>
             Using Trello, my team and I were able to brainstorm a few application ideas, ranging from a bot that can parse through Facebook group data and mark it 
@@ -91,6 +92,34 @@ const Loane = () => (
             and conditions of satisfaction to provide us with a more thorough understanding of how we want our app to function and the specific features it would have.
         </SectionTitleDescription>
     </Section>
+
+    <GridContainer>
+      {loane2.map((loane2) => (
+        <BlogCard key={loane2.id}>
+            <CardInfoAbout>
+                <ImgAbout src={loane2.image} />
+                <TitleContentSmall>
+                    {loane2.title}
+                </TitleContentSmall>
+                <DescriptionContentSmall style={{ fontStyle: "italic", color: "#0857c3", fontWeight: "bold"}}>
+                    {loane2.description}
+                </DescriptionContentSmall>
+                <DescriptionContentSmall>
+                    {loane2.description1}
+                    <br />
+                    {loane2.description2}
+                    <br />
+                    {loane2.description3}
+                    {loane2.description3}
+                    {loane2.description3}
+                    {loane2.description3}
+                    {loane2.description3}
+
+                </DescriptionContentSmall>
+            </CardInfoAbout>
+        </BlogCard>
+     ))}
+    </GridContainer>
 
 
     </Layout>

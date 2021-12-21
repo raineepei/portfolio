@@ -130,7 +130,7 @@ export const ImgAbout = styled.img`
   height:100%;
   object-fit: contain;
   overflow: hidden;
-  margin-top: -140px;
+  // margin-top: -140px;
 `
 export const TitleContent = styled.div`
   text-align: left;
@@ -141,12 +141,29 @@ export const TitleContent = styled.div`
   display: flex;
 `;
 
+export const TitleContentSmall = styled.div`
+  text-align: left;
+  z-index: 20;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+`;
+
 export const DescriptionContent = styled.div`
   text-align: left;
   z-index: 20;
   width: 100%;
   display: flex;
   font-size: 15px;
+`;
+
+export const DescriptionContentSmall = styled.div`
+  text-align: left;
+  z-index: 20;
+  width: 100%;
+  display: flex;
+  font-size: 13px;
 `;
 
 export const Section = styled.section`
@@ -172,14 +189,14 @@ export const Section = styled.section`
 `
 
 export const SectionTitleIntro = styled.h2`
-  font-weight: 600;
+  font-weight: 550;
   font-size: ${(props) => props.main ? '35px' : '35px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
   color: #0857C3;
   font-style: italic;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 5px;
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
   @media ${props => props.theme.breakpoints.md}{

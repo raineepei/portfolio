@@ -13,3 +13,19 @@ export const loane1 = [
       id: 1,
     }
   ];
+
+  export const loane2 = [
+    {
+      title: 'User/Developer Stories and CoS (Conditions of Satisfaction) Samples ',
+      description: 'As a user, I want the ability to visualize how much money I am spending each month and the specific categories I am spending in‍',
+      description1: 'CoS: tab that shows you that information',
+      description2: 'CoS: dashboard on the tab that shows graphs using Tableau',
+      description3: 'CoS: has sliders so users can change specific values',
+      id: 0,
+    },
+    {
+      title: '',
+      image: '../../images/loane_wireframes.png',
+      id: 1,
+    }
+  ];
