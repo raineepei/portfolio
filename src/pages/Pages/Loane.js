@@ -3,7 +3,7 @@ import { Section, SectionDivider, SectionTitle, SectionTitleProjects } from '../
 
 const Loane = () => (
     <Section>
-        <SectionTitleProjects main>WORK</SectionTitleProjects>
+        
     </Section>
 );
   

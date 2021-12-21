@@ -12,7 +12,7 @@ export const ImgAbout = styled.img`
   height:100%;
   object-fit: contain;
   overflow: hidden;
-  margin-top: -170px;
+  margin-top: -140px;
 `
 
 export const GridContainer = styled.section`

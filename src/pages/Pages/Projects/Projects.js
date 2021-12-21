@@ -8,13 +8,13 @@ import "@fontsource/roboto-mono"
 
 const Projects = () => (
   <Section nopadding id="projects">
-    <SectionTitleProjects main>WORK</SectionTitleProjects>
+    <SectionTitleProjects main>PROJECTS</SectionTitleProjects>
     <GridContainer>
       {projects.map((project) => (
         <BlogCard key={project.id}>
           <Img src={project.image} />
           <TitleContent>
-            <Link href='/Pages/Loane'>
+            <Link href={project.source}>
               <HeaderThree>
                   {project.title}
               </HeaderThree>
