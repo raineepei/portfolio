@@ -49,7 +49,6 @@ export const projects = [
 export const about = [
   {
     title: '',
-    description: "",
     image: '/images/aboutPhoto.jpeg',
     tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'Loane',
@@ -58,11 +57,11 @@ export const about = [
   },
   {
     title: '',
+    image: ' ',
     description:"what's up!",
     description1: "rainee is currently a student at uc san diego double majoring in bioinformatics and cognitive science: design and interaction.",
-    descroption2: "she's passionate about the intersection of tech and design and is always looking for opportunities to engage in both creative and technical work.",
+    description2: "she's passionate about the intersection of tech and design and is always looking for opportunities to engage in both creative and technical work.",
     description3: "in her free time, she loves to skateboard, shoot film, and embroider. she also loves her slightly chunky cat, dally.",
-    image: ' ',
     tags: ['React', 'JavaScript'],
     source: 'https://google.com',
     visit: 'https://google.com',

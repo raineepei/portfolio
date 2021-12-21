@@ -10,8 +10,9 @@ export const Img = styled.img`
 export const ImgAbout = styled.img`
   width:100%;
   height:100%;
-  object-fit: fill;
+  object-fit: contain;
   overflow: hidden;
+  margin-top: -170px;
 `
 
 export const GridContainer = styled.section`
@@ -87,6 +88,36 @@ export const CardInfo = styled.p`
   font-style: 2rem;
   font-family: Roboto Mono;
   line-height: 33px;
+  text-align: left;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding:.3rem
+  
+}
+`;
+
+export const CardInfoAbout = styled.p`
+  width: 100%;
+  // padding: 0 50px;
+  color: black;
+  font-style: 2rem;
+  // font-family: Roboto Mono;
+  line-height: 33px;
+  font-size: 16px;
+  text-align: left;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding:.3rem
+  
+}
+`;
+
+export const CardInfoAboutHi = styled.p`
+  width: 100%;
+  // padding: 0 50px;
+  color: #0857C3;
+  font-weight: bold;
+  // font-family: Roboto Mono;
+  line-height: 33px;
+  font-size: 20px;
   text-align: left;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem

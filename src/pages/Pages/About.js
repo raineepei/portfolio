@@ -3,26 +3,27 @@ import Link from 'next/link';
 import { about } from '../../constants/constants';
 
 import { Layout } from '../../layout/Layout';
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, ImgAbout } from './Projects/ProjectsStyles';
+import { BlogCard, CardInfoAbout, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, ImgAbout, CardInfoAboutHi } from './Projects/ProjectsStyles';
 
 const About = () => (
     <Layout>
     <GridContainer>
       {about.map((about) => (
         <BlogCard key={about.id}>
-          <CardInfo>
-            <ImgAbout src={about.image} />
-              {about.description}
-              <br />
+            <CardInfoAboutHi>
+                {about.description}
+            </CardInfoAboutHi>
+            <CardInfoAbout>
               <br />
               {about.description1}
               <br />
               <br />
-              {about.descroption2}
+              {about.description2}
               <br />
               <br />
               {about.description3}
-          </CardInfo>
+          </CardInfoAbout>
+          <ImgAbout src={about.image}  />
         </BlogCard>
       ))}
     </GridContainer>
