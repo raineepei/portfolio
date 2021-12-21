@@ -21,6 +21,7 @@ row-gap: 3rem;
   padding-bottom: 0;
 }
 `
+
 export const BlogCard = styled.div`
   text-align: center;
   width: 400px;
