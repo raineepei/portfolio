@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Section, SectionText, SectionTitle, SectionTitleIntro, SectionTitleDescription } from '../../../styles/GlobalComponents';
 import Button from '../../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { LeftSection } from '../../../components/HeroStyles';
 import { BiChevronDown } from "react-icons/bi";
 import { FiChevronDown } from "react-icons/fi";
 
