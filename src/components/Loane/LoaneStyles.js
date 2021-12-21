@@ -89,3 +89,54 @@ export const BackgroundInfo = styled.p`
     padding-bottom: 16px;
   }
 `
+export const GridContainer = styled.section`
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+padding: 3rem;
+place-items: center;
+column-gap: 2rem;
+row-gap: 3rem;
+@media ${(props) => props.theme.breakpoints.sm} {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  padding-bottom: 0;
+}
+`
+export const BlogCard = styled.div`
+  text-align: center;
+  width: 400px;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100%;
+  }
+`;
+
+export const CardInfoAbout = styled.p`
+  width: 100%;
+  // padding: 0 50px;
+  color: black;
+  font-style: 2rem;
+  // font-family: Roboto Mono;
+  line-height: 33px;
+  font-size: 16px;
+  text-align: left;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding:.3rem
+  
+}
+`;
+
+export const ImgAbout = styled.img`
+  width:100%;
+  height:100%;
+  object-fit: contain;
+  overflow: hidden;
+  margin-top: -140px;
+`
+export const TitleContent = styled.div`
+  text-align: left;
+  z-index: 20;
+  width: 100%;
+  font-weight: bold;
+  display: flex;
+`;

@@ -1,7 +1,8 @@
 import React from 'react';
 import Link from 'next/link'
 import { Layout } from '../../layout/Layout';
-import { LoaneTitle, LinkList, LinkColumn, LinkTitle, BackgroundInfo } from '../../components/LoaneStyles';
+import { LoaneTitle, LinkList, LinkColumn, LinkTitle, BackgroundInfo, GridContainer, BlogCard, CardInfoAbout, ImgAbout, TitleContent } from '../../components/Loane/LoaneStyles';
+import { loane1 } from '../../components/Loane/LoaneConstants'
 
 import "@fontsource/roboto-mono"
 import styled from 'styled-components'
@@ -61,7 +62,18 @@ const Loane = () => (
             </LinkColumn>
         </LinkList>
 
-        
+    <GridContainer>
+      {loane1.map((loane1) => (
+        <BlogCard key={loane1.id}>
+            <CardInfoAbout>
+                <TitleContent>
+                    {loane1.title}
+                </TitleContent>
+                {loane1.description}
+            </CardInfoAbout>
+        </BlogCard>
+      ))}
+    </GridContainer>
 
 
     </Layout>
