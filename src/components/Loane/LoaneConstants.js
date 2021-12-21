@@ -2,6 +2,7 @@ export const loane1 = [
     {
       title: 'Background',
       description: 'The SDSC Summer Development Internship was a 12 week long program aimed to expose future software engineers and designers to common development practices. During the internship, my team and I worked within an agile development framework, which consisted of daily scrum meetings and 5 total sprints—including sprint planning, sprint reviews, sprint retrospectives, and sprint cleaning.',
+      description1: 'As an Organized Research Unit of UC San Diego, the San Diego Supercomputer Center (SDSC) is considered a leader in data-intensive computing and cyberinfrastructure, providing resources, services, and expertise to the national research community including industry and academia.',
       source: 'Loane',
       id: 0,
     },

@@ -1,7 +1,8 @@
 import React from 'react';
 import Link from 'next/link'
 import { Layout } from '../../layout/Layout';
-import { LoaneTitle, LinkList, LinkColumn, LinkTitle, BackgroundInfo, GridContainer, BlogCard, CardInfoAbout, ImgAbout, TitleContent } from '../../components/Loane/LoaneStyles';
+import { LoaneTitle, LinkList, LinkColumn, LinkTitle, BackgroundInfo, GridContainer, BlogCard, CardInfoAbout, ImgAbout, TitleContent, 
+DescriptionContent, Section, SectionTitleIntro, SectionTitleDescription } from '../../components/Loane/LoaneStyles';
 import { loane1 } from '../../components/Loane/LoaneConstants'
 
 import "@fontsource/roboto-mono"
@@ -69,11 +70,27 @@ const Loane = () => (
                 <TitleContent>
                     {loane1.title}
                 </TitleContent>
-                {loane1.description}
+                <DescriptionContent>
+                    {loane1.description}
+                    {loane1.description1}
+                </DescriptionContent>
             </CardInfoAbout>
         </BlogCard>
-      ))}
+     ))}
     </GridContainer>
+
+    <Section>
+        <SectionTitleIntro>
+            Planning (Weeks 1-2)
+        </SectionTitleIntro>
+        <SectionTitleDescription>
+            Using Trello, my team and I were able to brainstorm a few application ideas, ranging from a bot that can parse through Facebook group data and mark it 
+            in your personal calendar, to an AI that is able to detect and recognize different objects. Taking into account the time restriction and our personal 
+            skills and interests, we ultimately settled on developing a student loans and budgeting app as we felt we understood the college student demographic and 
+            could create an application that would assist them in the transition to becoming financially independent. We came up with various user/developer stories 
+            and conditions of satisfaction to provide us with a more thorough understanding of how we want our app to function and the specific features it would have.
+        </SectionTitleDescription>
+    </Section>
 
 
     </Layout>

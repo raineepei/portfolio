@@ -56,8 +56,8 @@ export const LinkColumn = styled.div`
 `
 
 export const LinkTitle = styled.h4`
-    font-family: Roboto Mono;
-    font-weight: 600;
+  font-family: Roboto Mono;
+  font-weight: 600;
 	font-size: 12px;
 	line-height: 24px;
 	// text-transform: uppercase;
@@ -93,9 +93,10 @@ export const GridContainer = styled.section`
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
-place-items: center;
+// place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
+text-align: center;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
@@ -105,7 +106,7 @@ row-gap: 3rem;
 `
 export const BlogCard = styled.div`
   text-align: center;
-  width: 400px;
+  width: 500px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -118,8 +119,6 @@ export const CardInfoAbout = styled.p`
   font-style: 2rem;
   // font-family: Roboto Mono;
   line-height: 33px;
-  font-size: 16px;
-  text-align: left;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
   
@@ -137,6 +136,94 @@ export const TitleContent = styled.div`
   text-align: left;
   z-index: 20;
   width: 100%;
+  font-size: 18px;
   font-weight: bold;
   display: flex;
 `;
+
+export const DescriptionContent = styled.div`
+  text-align: left;
+  z-index: 20;
+  width: 100%;
+  display: flex;
+  font-size: 15px;
+`;
+
+export const Section = styled.section`
+  display: ${(props) => props.grid ? "grid" : "flex" };
+  flex-direction: ${(props) => props.row ? "row" : "column" };
+  // padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
+  padding: 3rem;
+  margin: 0 auto;
+  // max-width: 1040px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: 24px 48px 0;
+    flex-direction: column;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: ${(props) => props.nopadding ? "0" : "16px 16px 0" } ;
+    width: calc(100vw - 32px);
+    flex-direction: column;
+  }
+`
+
+export const SectionTitleIntro = styled.h2`
+  font-weight: 600;
+  font-size: ${(props) => props.main ? '35px' : '35px'};
+  line-height: ${(props) => props.main ? '72px' : '56px'};
+  width: max-content;
+  max-width: 100%;
+  color: #0857C3;
+  font-style: italic;
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+  @media ${props => props.theme.breakpoints.md}{
+    font-size: ${(props) => props.main ? '56px' : '48px'};
+    line-height: ${(props) => props.main ? '56px' : '48px'};
+    margin-bottom: 12px;
+    padding: ${(props) => props.main ? '40px 0 12px' : '0'};
+  }
+  @media ${props => props.theme.breakpoints.sm}{
+    font-size: 32px;
+    line-height: 40px;
+    font-size: ${(props) => props.main ? '28px' : '32px'};
+    line-height: ${(props) => props.main ? '32px' : '40px'};
+    margin-bottom: 8px;
+    padding: ${(props) => props.main ? '16px 0 8px' : '0'};
+    max-width: 100%;
+  }
+`
+
+// for description
+export const SectionTitleDescription = styled.h2`
+  font-weight: 400;
+  // font-size: ${(props) => props.main ? '35px' : '35px'};
+  font-size: 15px;
+  // line-height: ${(props) => props.main ? '72px' : '56px'};
+  line-height: 33px;
+  width: max-content;
+  max-width: 100%;
+  color: black;
+  margin-bottom: 16px;
+  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+  @media ${props => props.theme.breakpoints.md}{
+    font-size: ${(props) => props.main ? '56px' : '48px'};
+    line-height: ${(props) => props.main ? '56px' : '48px'};
+    margin-bottom: 12px;
+    padding: ${(props) => props.main ? '40px 0 12px' : '0'};
+  }
+  @media ${props => props.theme.breakpoints.sm}{
+    font-size: 32px;
+    line-height: 40px;
+    font-size: ${(props) => props.main ? '28px' : '32px'};
+    line-height: ${(props) => props.main ? '32px' : '40px'};
+    margin-bottom: 8px;
+    padding: ${(props) => props.main ? '16px 0 8px' : '0'};
+    max-width: 100%;
+  }
+`
