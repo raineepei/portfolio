@@ -3,15 +3,15 @@ import Link from 'next/link';
 import { about } from '../../constants/constants';
 
 import { Layout } from '../../layout/Layout';
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './Projects/ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, ImgAbout } from './Projects/ProjectsStyles';
 
 const About = () => (
     <Layout>
     <GridContainer>
       {about.map((about) => (
         <BlogCard key={about.id}>
-          <Img src={about.image} />
           <CardInfo>
+            <ImgAbout src={about.image} />
               {about.description}
               <br />
               <br />
