@@ -5,6 +5,7 @@ import Button from '../../../styles/GlobalComponents/Button';
 import { LeftSection } from '../../../components/HeroStyles';
 import { BiChevronDown } from "react-icons/bi";
 import { FiChevronDown } from "react-icons/fi";
+import styled from 'styled-components'
 
 const handleMouseEnter = e => {
   e.target.style.color = "#0857C3"
@@ -12,6 +13,13 @@ const handleMouseEnter = e => {
 const handleMouseLeave = e => {
   e.target.style.color = "black"
 }
+
+const LinkColor = styled.a`
+  font-size: 17px;
+  color: #0857C3;
+  font-style: italic;
+  text-decoration: underline;
+`
 
 const Hero = (props) => (
   <Section row nopadding>
@@ -24,17 +32,14 @@ const Hero = (props) => (
       </SectionTitleDescription>
       <SectionText style={{ fontSize: 19}}>
         currently a web developer for HUE Collective. <br />
-        <Link href='https://huecollective.co/'>
-          <span style={{ fontSize: 18, color: "#0857C3", fontStyle: 'italic', textDecorationLine: 'underline' }}>
+        <LinkColor href='https://huecollective.co/'>
             https://huecollective.co/
-          </span>
-        </Link> <br />
+        </LinkColor> 
+        <br />
           previously a UX Researcher for Kini Koffee. <br />
-        <Link href='https://confirmed-cylinder-86d.notion.site/Kini-Koffee-8eede66f18bb4d539aa01597e39dfd72'>
-          <span style={{ fontSize: 18, color: "#0857C3", fontStyle: 'italic', textDecorationLine: 'underline'}}>
+          <LinkColor href='https://confirmed-cylinder-86d.notion.site/Kini-Koffee-8eede66f18bb4d539aa01597e39dfd72'>
             group case study
-          </span>
-        </Link> 
+          </LinkColor> 
       </SectionText>
       <div style={{paddingTop: "80px", fontSize: "90px", display: "flex", alignItems: "center", justifyContent: "center"}}>
         <button onClick={() => window.location = '#projects'} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}

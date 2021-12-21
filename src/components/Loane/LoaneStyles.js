@@ -69,3 +69,23 @@ export const LinkTitle = styled.h4`
 		margin-bottom: 8px;
 	}
 `
+
+export const BackgroundInfo = styled.p`
+  font-size: 12px;
+  line-height: 40px;
+  font-family: Roboto Mono;
+  font-weight: 300;
+  padding-bottom: 3.6rem;
+  color: black;
+  @media ${(props) => props.theme.breakpoints.md} {
+    max-width: 670px;
+    font-size: 20px;
+    line-height: 32px;
+    padding-bottom: 24px;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;
+  }
+`
