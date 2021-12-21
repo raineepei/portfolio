@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { about } from '../../constants/constants';
 
 import { Layout } from '../../layout/Layout';
-import { BlogCard, CardInfoAbout, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, ImgAbout, CardInfoAboutHi } from './Projects/ProjectsStyles';
+import { BlogCard, CardInfoAbout, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, ImgAbout, CardInfoAboutHi } from '../../components/ProjectsStyles';
 
 const About = () => (
     <Layout>

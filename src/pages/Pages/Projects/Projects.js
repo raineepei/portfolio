@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from '../../../components/ProjectsStyles';
 import { Section, SectionDivider, SectionTitle, SectionTitleProjects } from '../../../styles/GlobalComponents';
 import { projects } from '../../../constants/constants';
 import "@fontsource/roboto-mono"
