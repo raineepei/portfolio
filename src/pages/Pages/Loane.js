@@ -2,7 +2,8 @@ import React from 'react';
 import Link from 'next/link'
 import { Layout } from '../../layout/Layout';
 import { LoaneTitle, LinkList, LinkColumn, LinkTitle, BackgroundInfo, GridContainer, BlogCard, CardInfoAbout, ImgAbout, TitleContent, 
-DescriptionContent, Section, SectionTitleIntro, SectionTitleDescription, TitleContentSmall, DescriptionContentSmall } from '../../components/Loane/LoaneStyles';
+DescriptionContent, Section, SectionTitleIntro, SectionTitleDescription, TitleContentSmall, DescriptionContentSmall, Section1,
+ImgAbout1 } from '../../components/Loane/LoaneStyles';
 import { loane1, loane2 } from '../../components/Loane/LoaneConstants'
 
 import "@fontsource/roboto-mono"
@@ -97,7 +98,6 @@ const Loane = () => (
       {loane2.map((loane2) => (
         <BlogCard key={loane2.id}>
             <CardInfoAbout>
-                <ImgAbout src={loane2.image} />
                 <TitleContentSmall>
                     {loane2.title}
                 </TitleContentSmall>
@@ -110,16 +110,74 @@ const Loane = () => (
                     {loane2.description2}
                     <br />
                     {loane2.description3}
-                    {loane2.description3}
-                    {loane2.description3}
-                    {loane2.description3}
-                    {loane2.description3}
-
+                    <br />
+                </DescriptionContentSmall>
+                <DescriptionContentSmall style={{ fontStyle: "italic", color: "#0857c3", fontWeight: "bold"}}>
+                    {loane2.description4}
+                </DescriptionContentSmall>
+                <DescriptionContentSmall>
+                    {loane2.description5}
+                    <br />
+                    {loane2.description6}
+                    <br />
+                    {loane2.description7}
+                    <br />
+                    {loane2.description8}
+                    <br />
+                </DescriptionContentSmall>
+                <DescriptionContentSmall style={{ fontStyle: "italic", color: "#0857c3", fontWeight: "bold"}}>
+                    {loane2.description9}
+                </DescriptionContentSmall>
+                <DescriptionContentSmall>
+                    {loane2.description10}
+                    <br />
+                    {loane2.description11}
+                    <br />
+                    {loane2.description12}
+                    <br />
+                    {loane2.description13}
+                    <br />
+                    {loane2.description14}
+                    <br />
+                    {loane2.description15}
+                    <br />
+                    {loane2.description16}
+                </DescriptionContentSmall>
+                <DescriptionContentSmall style={{ fontStyle: "italic", color: "#0857c3", fontWeight: "bold"}}>
+                    {loane2.description17}
+                </DescriptionContentSmall>
+                <DescriptionContentSmall>
+                    {loane2.description18}
+                    <br />
+                </DescriptionContentSmall>
+                <ImgAbout src={loane2.image} />
+                <DescriptionContentSmall style={{fontStyle: "italic", color: "#0857c3", textAlign: 'left'}}>
+                    {loane2.description19}
                 </DescriptionContentSmall>
             </CardInfoAbout>
         </BlogCard>
      ))}
     </GridContainer>
+
+    <Section>
+        <SectionTitleIntro>
+            SPRINT 1 (WEEKS 3-4)
+        </SectionTitleIntro>
+        <SectionTitleDescription>
+        This sprint consisted primarily of learning the different frameworks, databases, and languages we would be using to construct our 
+        application. As a team, we watched YouTube videos on Javascript and React Native and also took an interactive course on React.js through 
+        Scrimba. Other than the required learning, I was able to design a high-fidelity prototype of our application using Adobe XD. The original 
+        wireframe lacked a lot of details on the functionality of the app, but it was still useful as I built off of it to design the high-fidelity
+        prototype with more specific features and working animations to test out user flow and interaction, which ultimately served as the 
+        baseline/reference during the development process. There were a lot of changes made throughout the process in terms of styling, new pages/functions, 
+        and user interactions.
+        </SectionTitleDescription>
+    </Section>
+
+    <Section1>
+        <ImgAbout1 src='../../images/login.png'/>
+        <ImgAbout1 src='../../images/homepage.png'/>
+    </Section1>
 
 
     </Layout>

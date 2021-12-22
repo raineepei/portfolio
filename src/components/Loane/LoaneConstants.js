@@ -17,15 +17,31 @@ export const loane1 = [
   export const loane2 = [
     {
       title: 'User/Developer Stories and CoS (Conditions of Satisfaction) Samples ',
+      image: ' ',
       description: 'As a user, I want the ability to visualize how much money I am spending each month and the specific categories I am spending in‍',
       description1: 'CoS: tab that shows you that information',
       description2: 'CoS: dashboard on the tab that shows graphs using Tableau',
       description3: 'CoS: has sliders so users can change specific values',
+      description4: 'As a user, I want UI friendly app so it is easy to navigate',
+      description5: 'CoS: looks visually appealing',
+      description6: 'CoS: looks minimalistic and clean',
+      description7: 'CoS: not too crowded',
+      description8: 'CoS: potentially have option for dark mode',
+      description9: 'As a user, I want to see my total loans so that I can clearly see how much I owe',
+      description10: 'CoS: landing page of the app',
+      description11: 'CoS: have its own tab as well',
+      description12: 'CoS: need a way to enter how many loans you took out and info about loans',
+      description13: 'CoS: a way to change info for person',
+      description14: 'CoS: way to see how much each individual type of loan is contributing',
+      description15: 'CoS: way to see changes over time',
+      description16: 'CoS: log for all the entries you have made',
+      description17: 'As a developer, I want a way to get feedback from users',
+      description18: 'CoS: button where users can send messages about features that are not working',
       id: 0,
     },
     {
-      title: '',
       image: '../../images/loane_wireframes.png',
+      description19: 'With user stories and CoS in mind, I designed a low-fidelity wireframe of our app.',
       id: 1,
     }
   ];

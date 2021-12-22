@@ -126,12 +126,23 @@ export const CardInfoAbout = styled.p`
 `;
 
 export const ImgAbout = styled.img`
-  width:100%;
+  width:120%;
   height:100%;
   object-fit: contain;
   overflow: hidden;
-  // margin-top: -140px;
+  margin-top: -390px;
 `
+
+export const ImgAbout1 = styled.img`
+  width:15%;
+  height:15%;
+  object-fit: contain;
+  overflow: hidden;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+`
+
 export const TitleContent = styled.div`
   text-align: left;
   z-index: 20;
@@ -143,7 +154,7 @@ export const TitleContent = styled.div`
 
 export const TitleContentSmall = styled.div`
   text-align: left;
-  z-index: 20;
+  // z-index: 20;
   width: 100%;
   font-size: 14px;
   font-weight: bold;
@@ -160,9 +171,9 @@ export const DescriptionContent = styled.div`
 
 export const DescriptionContentSmall = styled.div`
   text-align: left;
-  z-index: 20;
+  // z-index: 20;
   width: 100%;
-  display: flex;
+  // display: flex;
   font-size: 13px;
 `;
 
@@ -177,6 +188,29 @@ export const Section = styled.section`
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: 24px 48px 0;
+    flex-direction: column;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: ${(props) => props.nopadding ? "0" : "16px 16px 0" } ;
+    width: calc(100vw - 32px);
+    flex-direction: column;
+  }
+`
+// for images
+export const Section1 = styled.section`
+  // display: ${(props) => props.grid ? "grid" : "flex" };
+  // flex-direction: ${(props) => props.row ? "row" : "column" };
+  // padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
+  // padding: 2rem;
+  margin: 0 auto;
+  // max-width: 1040px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+  background: #f5f5f5;
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
     flex-direction: column;
