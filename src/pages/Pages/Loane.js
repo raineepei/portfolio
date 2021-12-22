@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Layout } from '../../layout/Layout';
 import { LoaneTitle, LinkList, LinkColumn, LinkTitle, BackgroundInfo, GridContainer, BlogCard, CardInfoAbout, ImgAbout, TitleContent, 
 DescriptionContent, Section, SectionTitleIntro, SectionTitleDescription, TitleContentSmall, DescriptionContentSmall, Section1,
-ImgAbout1 } from '../../components/Loane/LoaneStyles';
+ImgAbout1, Button } from '../../components/Loane/LoaneStyles';
 import { loane1, loane2 } from '../../components/Loane/LoaneConstants'
 
 import "@fontsource/roboto-mono"
@@ -14,7 +14,6 @@ const LinkColor = styled.a`
   color: black;
   text-decoration: underline;
 `
-
 const Loane = () => (
     <Layout>
         <LoaneTitle main center>
@@ -179,6 +178,13 @@ const Loane = () => (
         <ImgAbout1 src='../../images/homepage.png'/>
     </Section1>
 
+
+
+    <LinkColor href='/'>
+        <Button>
+            GO BACK
+        </Button>
+    </LinkColor>
 
     </Layout>
 );

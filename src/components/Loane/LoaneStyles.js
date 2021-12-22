@@ -278,3 +278,19 @@ export const SectionTitleDescription = styled.h2`
     max-width: 100%;
   }
 `
+
+export const Button = styled.button`
+  height:66px;
+  width:140px;
+  border: 1px outset black;
+  background-color: white;
+  font-style: italic;
+  font-size: 23px;
+  box-shadow: 6px 6px 0px;
+  &:hover {
+    color: #0857C3;
+    opacity: 1;
+    box-shadow: 6px 6px 0px #0857C3;
+    border: 1px outset #0857C3;
+  }
+`
