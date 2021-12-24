@@ -134,13 +134,13 @@ export const ImgAbout = styled.img`
 `
 
 export const ImgAbout1 = styled.img`
-  width:15%;
-  height:15%;
+  width:13%;
+  height:13%;
   object-fit: contain;
   overflow: hidden;
-  margin-left: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-left: 14px;
+  margin-top: 14px;
+  margin-bottom: 14px;
 `
 
 export const TitleContent = styled.div`
@@ -209,7 +209,7 @@ export const Section1 = styled.section`
   // padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
   // padding: 2rem;
   margin: 0 auto;
-  // max-width: 1040px;
+  // max-width: 3000px;
   box-sizing: content-box;
   position: relative;
   overflow: hidden;

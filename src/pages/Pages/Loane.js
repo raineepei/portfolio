@@ -180,6 +180,11 @@ const Loane = () => (
         <ImgAbout1 src='../../images/Loane/login.png'/>
         <ImgAbout1 src='../../images/Loane/homepage.png'/>
         <ImgAbout1 src='../../images/Loane/loans1.png'/>
+        <ImgAbout1 src='../../images/Loane/loans2.png'/>
+        <ImgAbout1 src='../../images/Loane/budget.png'/>
+        <ImgAbout1 src='../../images/Loane/resources.png'/>
+        <ImgAbout1 src='../../images/Loane/settings.png'/>
+
     </Section1>
 
     {/* sprints 2-3 */}
