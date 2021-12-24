@@ -4,7 +4,7 @@ import { Layout } from '../../layout/Layout';
 import { LoaneTitle, LinkList, LinkColumn, LinkTitle, BackgroundInfo, GridContainer, BlogCard, CardInfoAbout, ImgAbout, TitleContent, 
 DescriptionContent, Section, SectionTitleIntro, SectionTitleDescription, TitleContentSmall, DescriptionContentSmall, Section1,
 ImgAbout1, Button } from '../../components/Loane/LoaneStyles';
-import { loane1, loane2 } from '../../components/Loane/LoaneConstants'
+import { loane1, loane2, loane3, loane4, loane5 } from '../../components/Loane/LoaneConstants'
 
 import "@fontsource/roboto-mono"
 import styled from 'styled-components'
@@ -64,6 +64,7 @@ const Loane = () => (
             </LinkColumn>
         </LinkList>
 
+    {/* background and role */}
     <GridContainer>
       {loane1.map((loane1) => (
         <BlogCard key={loane1.id}>
@@ -174,10 +175,48 @@ const Loane = () => (
     </Section>
 
     <Section1>
-        <ImgAbout1 src='../../images/login.png'/>
-        <ImgAbout1 src='../../images/homepage.png'/>
+        <ImgAbout1 src='../../images/Loane/login.png'/>
+        <ImgAbout1 src='../../images/Loane/homepage.png'/>
+        <ImgAbout1 src='../../images/Loane/loans1.png'/>
     </Section1>
 
+    {/* sprints 2-3 */}
+    <GridContainer>
+      {loane3.map((loane3) => (
+        <BlogCard key={loane3.id}>
+            <CardInfoAbout>
+                <SectionTitleIntro>
+                    {loane3.title}
+                </SectionTitleIntro>
+                <SectionTitleDescription style={{textAlign: 'left'}}>
+                    {loane3.description}
+                </SectionTitleDescription>
+            </CardInfoAbout>
+        </BlogCard>
+     ))}
+    </GridContainer>
+
+    {/* sprint 4 */}
+    <GridContainer>
+      {loane4.map((loane4) => (
+        <BlogCard key={loane4.id}>
+            <CardInfoAbout>
+                <SectionTitleIntro>
+                    {loane4.title}
+                </SectionTitleIntro>
+                <SectionTitleDescription style={{textAlign: 'left'}}>
+                    {loane4.description}
+                </SectionTitleDescription>
+            </CardInfoAbout>
+        </BlogCard>
+     ))}
+    </GridContainer>
+
+    <Section1>
+        <ImgAbout1 src='../../images/Loane/login.png'/>
+        <ImgAbout1 src='../../images/Loane/homepage.png'/>
+        <ImgAbout1 src='../../images/Loane/loans1.png'/>
+    </Section1>
 
 
     <LinkColor href='/'>
