@@ -55,7 +55,7 @@ export const loane1 = [
     },
     {
       title: '',
-      image: 'https://google.com',
+      image: '../../images/Loane/resources.gif',
       id: 1,
     }
   ];

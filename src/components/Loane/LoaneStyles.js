@@ -143,6 +143,16 @@ export const ImgAbout1 = styled.img`
   margin-bottom: 14px;
 `
 
+export const ImgAbout2 = styled.img`
+  width:70%;
+  height:70%;
+  object-fit: contain;
+  overflow: hidden;
+  margin-left: 14px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+`
+
 export const TitleContent = styled.div`
   text-align: left;
   font-family: Roboto;

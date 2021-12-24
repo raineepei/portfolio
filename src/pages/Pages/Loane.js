@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Layout } from '../../layout/Layout';
 import { LoaneTitle, LinkList, LinkColumn, LinkTitle, BackgroundInfo, GridContainer, BlogCard, CardInfoAbout, ImgAbout, TitleContent, 
 DescriptionContent, Section, SectionTitleIntro, SectionTitleDescription, TitleContentSmall, DescriptionContentSmall, Section1,
-ImgAbout1, Button } from '../../components/Loane/LoaneStyles';
+ImgAbout1, Button, ImgAbout2 } from '../../components/Loane/LoaneStyles';
 import { loane1, loane2, loane3, loane4, loane5 } from '../../components/Loane/LoaneConstants'
 import "@fontsource/roboto";
 
@@ -190,14 +190,15 @@ const Loane = () => (
     {/* sprints 2-3 */}
     <GridContainer>
       {loane3.map((loane3) => (
-        <BlogCard key={loane3.id}>
-            <CardInfoAbout>
+        <BlogCard key={loane3.id} >
+            <CardInfoAbout >
                 <SectionTitleIntro>
                     {loane3.title}
                 </SectionTitleIntro>
                 <SectionTitleDescription style={{textAlign: 'left'}}>
                     {loane3.description}
                 </SectionTitleDescription>
+                <ImgAbout2 src={loane3.image} />
             </CardInfoAbout>
         </BlogCard>
      ))}
