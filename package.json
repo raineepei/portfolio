@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fontsource/roboto": "^4.5.1",
     "@fontsource/roboto-mono": "^4.5.0",
     "install": "^0.13.0",
     "next": "10.2.3",

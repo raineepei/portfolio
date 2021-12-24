@@ -117,7 +117,7 @@ export const CardInfoAbout = styled.p`
   // padding: 0 50px;
   color: black;
   font-style: 2rem;
-  // font-family: Roboto Mono;
+  font-family: Roboto;
   line-height: 33px;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
@@ -145,15 +145,17 @@ export const ImgAbout1 = styled.img`
 
 export const TitleContent = styled.div`
   text-align: left;
+  font-family: Roboto;
   z-index: 20;
   width: 100%;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: 600;
   display: flex;
 `;
 
 export const TitleContentSmall = styled.div`
   text-align: left;
+  font-family: Roboto;
   // z-index: 20;
   width: 100%;
   font-size: 14px;
@@ -163,14 +165,16 @@ export const TitleContentSmall = styled.div`
 
 export const DescriptionContent = styled.div`
   text-align: left;
+  font-family: Roboto;
   z-index: 20;
+  font-size: 14px;
   width: 100%;
   display: flex;
-  font-size: 15px;
 `;
 
 export const DescriptionContentSmall = styled.div`
   text-align: left;
+  font-family: Roboto;
   // z-index: 20;
   width: 100%;
   // display: flex;
@@ -223,14 +227,14 @@ export const Section1 = styled.section`
 `
 
 export const SectionTitleIntro = styled.h2`
-  font-weight: 550;
+  font-weight: 600;
   font-size: ${(props) => props.main ? '35px' : '35px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
   color: #0857C3;
   font-style: italic;
-  font-size: 16px;
+  font-size: 15px;
   margin-bottom: 5px;
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
   @media ${props => props.theme.breakpoints.md}{
@@ -254,12 +258,13 @@ export const SectionTitleIntro = styled.h2`
 export const SectionTitleDescription = styled.h2`
   font-weight: 400;
   // font-size: ${(props) => props.main ? '35px' : '35px'};
-  font-size: 15px;
+  font-size: 14px;
   // line-height: ${(props) => props.main ? '72px' : '56px'};
   line-height: 33px;
   width: max-content;
   max-width: 100%;
   color: black;
+  font-family: Roboto;
   margin-bottom: 16px;
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
   @media ${props => props.theme.breakpoints.md}{
@@ -284,10 +289,10 @@ export const Button = styled.button`
   width:140px;
   border: 1px outset black;
   background-color: white;
+  font-family: Roboto;
   font-style: italic;
   font-size: 23px;
   box-shadow: 6px 6px 0px;
-  align-item: center;
   &:hover {
     color: #0857C3;
     opacity: 1;

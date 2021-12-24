@@ -40,7 +40,7 @@ export const loane1 = [
       id: 0,
     },
     {
-      image: '../../images/loane_wireframes.png',
+      image: '../../images/Loane/loane_wireframes.png',
       description19: 'With user stories and CoS in mind, I designed a low-fidelity wireframe of our app.',
       id: 1,
     }
@@ -69,6 +69,20 @@ export const loane1 = [
     {
       title: 'SPRINT 4 (WEEKS 9-10)',
       description: 'Because each team member worked on their individual tasks (adding a bunch of cool features to each page), each page was inconsistent in terms of color scheme and layout. Because of this, I had to do a complete UI redesign of each screen so the interface would look cleaner and more seamless for users. Of course, because the hi-fi prototype wasn\'t all-encompassing, it was important to stay flexible as we built off of our prototype and made sure our new features and pages stayed consistent with the colors and layout. Besides redesigning the UI, I also worked with some Firebase to make sure the user\'s name would properly display on their profile page.',
+      source: 'Loane',
+      id: 0,
+    }
+  ];
+
+  export const loane5 = [
+    {
+      title: 'SPRINT 5 (WEEKS 11-12)',
+      description: 'This final sprint was dedicated to making the final touches on the UI, finishing up the implementations of certain features, and cleaning up our code. We decided to scrap certain functionalities of the app because of our time restraints; collectively, we got rid of a main screen/dashboard and the awards feature on the profile page—so I had to redo the interace of this page. Since we had also scrapped certain setting options, such as being able to change the theme or turn on notifications, I was able to move the leftover settings onto the profile page. Side note, another cool implementation I worked on was to use an expo module, expo-image-picker, to allow users to choose a profile picture from their camera roll, which would then be stored in firebase so it would appear each time they  are logged in. Steven, who worked primarily on the budgeting page, also changed it up from our original prototype (he got rid of the ability to set a spending max), but was able to link each of the user\'s spendings to the budgeting page, which I think is super amazing!',
+      source: 'Loane',
+      id: 0,
+    },
+    {
+      title: '',
       source: 'Loane',
       id: 0,
     }

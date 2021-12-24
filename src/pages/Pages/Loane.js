@@ -5,6 +5,7 @@ import { LoaneTitle, LinkList, LinkColumn, LinkTitle, BackgroundInfo, GridContai
 DescriptionContent, Section, SectionTitleIntro, SectionTitleDescription, TitleContentSmall, DescriptionContentSmall, Section1,
 ImgAbout1, Button } from '../../components/Loane/LoaneStyles';
 import { loane1, loane2, loane3, loane4, loane5 } from '../../components/Loane/LoaneConstants'
+import "@fontsource/roboto";
 
 import "@fontsource/roboto-mono"
 import styled from 'styled-components'
@@ -94,6 +95,7 @@ const Loane = () => (
         </SectionTitleDescription>
     </Section>
 
+    {/* user developer stories */}
     <GridContainer>
       {loane2.map((loane2) => (
         <BlogCard key={loane2.id}>
@@ -218,8 +220,38 @@ const Loane = () => (
         <ImgAbout1 src='../../images/Loane/loans1.png'/>
     </Section1>
 
+    {/* sprint 5 */}
+    <GridContainer>
+      {loane5.map((loane5) => (
+        <BlogCard key={loane5.id}>
+            <CardInfoAbout>
+                <SectionTitleIntro>
+                    {loane5.title}
+                </SectionTitleIntro>
+                <SectionTitleDescription style={{textAlign: 'left'}}>
+                    {loane5.description}
+                </SectionTitleDescription>
+            </CardInfoAbout>
+        </BlogCard>
+     ))}
+    </GridContainer>
 
-    <LinkColor href='/'>
+    <Section>
+        <SectionTitleIntro>
+            REFLECTION
+        </SectionTitleIntro>
+        <SectionTitleDescription>
+        I'm extremely grateful to have had my first software development internship at SDSC. I dove head-first into the 
+        program without knowing much, but came out with an experience that will contribute immensely in my future endeavors as an 
+        aspiring developer and designer. I've learned so much about how to bridge the gap between design and development and am inspired to continue learning about and apply the design process.
+        Shoutout to Ryan for being an amazing program coordinator, and Alex, for being such an 
+        awesome project manager and keeping us in check. Also, thank you @ team for being so patient, understanding, and chill; 
+        I looked forward to our team bonding activities each sprint. :-)
+        </SectionTitleDescription>
+    </Section>
+
+
+    <LinkColor href='/' style={{ display: 'flex', justifyContent: 'center' }}>
         <Button>
             GO BACK
         </Button>
