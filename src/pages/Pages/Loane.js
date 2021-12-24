@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Layout } from '../../layout/Layout';
 import { LoaneTitle, LinkList, LinkColumn, LinkTitle, BackgroundInfo, GridContainer, BlogCard, CardInfoAbout, ImgAbout, TitleContent, 
 DescriptionContent, Section, SectionTitleIntro, SectionTitleDescription, TitleContentSmall, DescriptionContentSmall, Section1,
-ImgAbout1, Button, ImgAbout2 } from '../../components/Loane/LoaneStyles';
+ImgAbout1, Button, ImgAbout2, ImgAbout3, ImgAbout2F } from '../../components/Loane/LoaneStyles';
 import { loane1, loane2, loane3, loane4, loane5 } from '../../components/Loane/LoaneConstants'
 import "@fontsource/roboto";
 
@@ -188,31 +188,32 @@ const Loane = () => (
     </Section1>
 
     {/* sprints 2-3 */}
-    <GridContainer>
+    <GridContainer style={{alignItems: 'center'}} >
       {loane3.map((loane3) => (
         <BlogCard key={loane3.id} >
             <CardInfoAbout >
-                <SectionTitleIntro>
+            <ImgAbout2F src={loane3.image}/>
+                <SectionTitleIntro >
                     {loane3.title}
                 </SectionTitleIntro>
                 <SectionTitleDescription style={{textAlign: 'left'}}>
                     {loane3.description}
                 </SectionTitleDescription>
-                <ImgAbout2 src={loane3.image} />
             </CardInfoAbout>
         </BlogCard>
      ))}
     </GridContainer>
 
     {/* sprint 4 */}
-    <GridContainer>
+    <GridContainer style={{alignItems: 'center'}}>
       {loane4.map((loane4) => (
         <BlogCard key={loane4.id}>
             <CardInfoAbout>
+            <ImgAbout2F src={loane4.image}/>
                 <SectionTitleIntro>
                     {loane4.title}
                 </SectionTitleIntro>
-                <SectionTitleDescription style={{textAlign: 'left'}}>
+                <SectionTitleDescription style={{textAlign: 'left', marginBottom: '50px'}}>
                     {loane4.description}
                 </SectionTitleDescription>
             </CardInfoAbout>
@@ -220,14 +221,15 @@ const Loane = () => (
      ))}
     </GridContainer>
 
-    <Section1>
-        <ImgAbout1 src='../../images/Loane/login.png'/>
-        <ImgAbout1 src='../../images/Loane/homepage.png'/>
-        <ImgAbout1 src='../../images/Loane/loans1.png'/>
+    <Section1 style={{display: "flex", justifyContent: 'center'}}>
+        <ImgAbout3 src='../../images/Loane/welcomeback2.png'/>
+        <ImgAbout3 src='../../images/Loane/welcomeback1.png'/>
+        <ImgAbout3 src='../../images/Loane/signup.png'/>
+        <ImgAbout3 src='../../images/Loane/forgotpwd.png'/>
     </Section1>
 
     {/* sprint 5 */}
-    <GridContainer>
+    <GridContainer style={{alignItems: 'center', marginBottom: '-70px'}}>
       {loane5.map((loane5) => (
         <BlogCard key={loane5.id}>
             <CardInfoAbout>
@@ -237,6 +239,10 @@ const Loane = () => (
                 <SectionTitleDescription style={{textAlign: 'left'}}>
                     {loane5.description}
                 </SectionTitleDescription>
+                <Section style={{display: "inline", justifyContent: 'center'}}>
+                    <ImgAbout2 src={loane5.image} />
+                    <ImgAbout2 src={loane5.image1} />
+                </Section>
             </CardInfoAbout>
         </BlogCard>
      ))}

@@ -51,6 +51,7 @@ export const loane1 = [
       title: 'SPRINT 2-3 (WEEKS 5-6)',
       description: 'Sprint 2 was the start of the development process; my primary tasks during these two sprints was to develop the Resources and Profile/Settings page in accordance with the prototype. However, the functionality of the Resources page deviated from our original prototype after taking into account code efficiency/effectiveness, but I believe the changes made the page easier for users to navigate. The profile/settings page was replicated fairly well and looked like how we envisioned it. These two sprints were also filled with lots of debugging and fixing navigation issues.',
       source: 'Loane',
+      image: ' ',
       id: 0,
     },
     {
@@ -64,12 +65,14 @@ export const loane1 = [
     {
       title: '',
       source: 'Loane',
+      image: '../../images/Loane/profile.gif',
       id: 0,
     },
     {
       title: 'SPRINT 4 (WEEKS 9-10)',
       description: 'Because each team member worked on their individual tasks (adding a bunch of cool features to each page), each page was inconsistent in terms of color scheme and layout. Because of this, I had to do a complete UI redesign of each screen so the interface would look cleaner and more seamless for users. Of course, because the hi-fi prototype wasn\'t all-encompassing, it was important to stay flexible as we built off of our prototype and made sure our new features and pages stayed consistent with the colors and layout. Besides redesigning the UI, I also worked with some Firebase to make sure the user\'s name would properly display on their profile page.',
       source: 'Loane',
+      image: ' ',
       id: 0,
     }
   ];
@@ -84,6 +87,8 @@ export const loane1 = [
     {
       title: '',
       source: 'Loane',
+      image: '../../images/Loane/budget1.png',
+      image1: '../../images/Loane/budget2.png',
       id: 0,
     }
   ];

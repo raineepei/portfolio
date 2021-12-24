@@ -143,14 +143,31 @@ export const ImgAbout1 = styled.img`
   margin-bottom: 14px;
 `
 
-export const ImgAbout2 = styled.img`
-  width:70%;
-  height:70%;
+export const ImgAbout2F = styled.img`
+  width:60%;
+  height:60%;
   object-fit: contain;
   overflow: hidden;
-  margin-left: 14px;
-  margin-top: 14px;
-  margin-bottom: 14px;
+  margin-right: 30px;
+`
+
+export const ImgAbout2 = styled.img`
+  width:38%;
+  height:38%;
+  object-fit: contain;
+  overflow: hidden;
+  margin-right: 30px;
+`
+
+export const ImgAbout3 = styled.img`
+  width:20%;
+  height:20%;
+  object-fit: contain;
+  overflow: hidden;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
 `
 
 export const TitleContent = styled.div`
