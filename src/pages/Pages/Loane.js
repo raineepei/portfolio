@@ -248,6 +248,13 @@ const Loane = () => (
      ))}
     </GridContainer>
 
+    <Section1 style={{display: "flex", justifyContent: 'center'}}>
+        <ImgAbout3 src='../../images/Loane/welcomeback2.png'/>
+        <ImgAbout3 src='../../images/Loane/welcomeback1.png'/>
+        <ImgAbout3 src='../../images/Loane/signup.png'/>
+        <ImgAbout3 src='../../images/Loane/forgotpwd.png'/>
+    </Section1>
+
     <Section>
         <SectionTitleIntro>
             REFLECTION
