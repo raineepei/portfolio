@@ -199,6 +199,9 @@ const Loane = () => (
                 <SectionTitleDescription style={{textAlign: 'left'}}>
                     {loane3.description}
                 </SectionTitleDescription>
+                <DescriptionContentSmall style={{fontStyle: "italic", color: "#0857c3", textAlign: 'left'}}>
+                    {loane3.description1}
+                </DescriptionContentSmall>
             </CardInfoAbout>
         </BlogCard>
      ))}
@@ -216,6 +219,9 @@ const Loane = () => (
                 <SectionTitleDescription style={{textAlign: 'left', marginBottom: '50px'}}>
                     {loane4.description}
                 </SectionTitleDescription>
+                <DescriptionContentSmall style={{fontStyle: "italic", color: "#0857c3", textAlign: 'left'}}>
+                    {loane4.description1}
+                </DescriptionContentSmall>
             </CardInfoAbout>
         </BlogCard>
      ))}
@@ -229,7 +235,7 @@ const Loane = () => (
     </Section1>
 
     {/* sprint 5 */}
-    <GridContainer style={{alignItems: 'center', marginBottom: '-70px'}}>
+    <GridContainer style={{alignItems: 'center', marginBottom: '0px'}}>
       {loane5.map((loane5) => (
         <BlogCard key={loane5.id}>
             <CardInfoAbout>
@@ -248,12 +254,11 @@ const Loane = () => (
      ))}
     </GridContainer>
 
-    <Section1 style={{display: "flex", justifyContent: 'center'}}>
-        <ImgAbout3 src='../../images/Loane/welcomeback2.png'/>
-        <ImgAbout3 src='../../images/Loane/welcomeback1.png'/>
-        <ImgAbout3 src='../../images/Loane/signup.png'/>
-        <ImgAbout3 src='../../images/Loane/forgotpwd.png'/>
+    <Section1 style={{display: "flex", justifyContent: 'center', flexDirection: 'rows'}}>
+            <ImgAbout3 src='../../images/Loane/graph.gif'/>
+            <ImgAbout3 src='../../images/Loane/calculator.gif'/>
     </Section1>
+
 
     <Section>
         <SectionTitleIntro>

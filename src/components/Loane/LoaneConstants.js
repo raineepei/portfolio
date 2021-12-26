@@ -57,6 +57,7 @@ export const loane1 = [
     {
       title: '',
       image: '../../images/Loane/resources.gif',
+      description1: 'accordian list; my first exposure to react navigation',
       id: 1,
     }
   ];
@@ -66,6 +67,7 @@ export const loane1 = [
       title: '',
       source: 'Loane',
       image: '../../images/Loane/profile.gif',
+      description1: 'profile and settings page became merged; you can choose your profile picture!',
       id: 0,
     },
     {

@@ -19,11 +19,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
-    "/Pages/About": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Pages/About.js"
-    ],
     "/Pages/Loane": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

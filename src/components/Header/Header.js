@@ -27,8 +27,8 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link href='https://drive.google.com/file/d/1TVrn-1kR-GS5Ypg9ILPYLKvg6zXJDawK/view?usp=sharing'>
-          <NavLink href='https://drive.google.com/file/d/1TVrn-1kR-GS5Ypg9ILPYLKvg6zXJDawK/view?usp=sharing'>resume</NavLink>
+        <Link href='https://drive.google.com/file/d/1oZXT0tADgoiIJbkK3L2IzgcjOsbIgkWT/view?usp=sharing'>
+          <NavLink href='https://drive.google.com/file/d/1oZXT0tADgoiIJbkK3L2IzgcjOsbIgkWT/view?usp=sharing'>resume</NavLink>
         </Link>
       </li>
     </Div3>
