@@ -320,6 +320,7 @@ export const Button = styled.button`
   font-style: italic;
   font-size: 23px;
   box-shadow: 6px 6px 0px;
+  text-decoration: underline;
   &:hover {
     color: #0857C3;
     opacity: 1;

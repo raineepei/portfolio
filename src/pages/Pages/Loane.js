@@ -13,7 +13,6 @@ import { Img } from '../../components/ProjectsStyles';
 
 const LinkColor = styled.a`
   color: black;
-  text-decoration: underline;
 `
 const Loane = () => (
     <Layout>
