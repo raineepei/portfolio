@@ -1,11 +1,15 @@
 import React from 'react';
 import { Layout } from '../../layout/Layout';
 import { KiniTitle, LinkList, LinkColumn, LinkTitle, BackgroundInfo, ImgOver, SectionTitleIntro, SectionTitleDescription, SectionTitleDescription1, 
-SectionProblem, SectionTitleIntroProblem, SectionTitleDescriptionProblem } from '../../components/Kini/KiniStyles';
+SectionProblem, SectionTitleIntroProblem, SectionTitleDescriptionProblem, ImgSurvey, GridContainer } from '../../components/Kini/KiniStyles';
 import "@fontsource/roboto";
 
 import "@fontsource/roboto-mono"
 import styled from 'styled-components'
+
+const LinkColor = styled.a`
+  color: black;
+`
 
 const Kini = () => (
     <Layout>
@@ -74,9 +78,16 @@ const Kini = () => (
         <SectionTitleIntro>
             RESEARCH METHODOLOGY: GETTING TO KNOW OUR USERS
         </SectionTitleIntro>
-        <SectionTitleDescriptionProblem>
-            Hi
-        </SectionTitleDescriptionProblem>
+        <SectionTitleDescription1 style={{color: '#D82682', fontWeight: 'bold'}}>
+            1. We surveyed 60 users (most in our target demographic) on their outlook on small coffee shops.
+        </SectionTitleDescription1>
+        <SectionTitleDescription1 style={{fontWeight: 'bold'}}>
+            Sample Survey Questions:
+        </SectionTitleDescription1>
+        <GridContainer>
+            <ImgSurvey src='../../images/Kini/samplesurvey1.png' />
+            <ImgSurvey src='../../images/Kini/samplesurvey2.png' />
+        </GridContainer>
 
 
 

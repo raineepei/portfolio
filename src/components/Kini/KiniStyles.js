@@ -94,6 +94,18 @@ export const ImgOver = styled.img`
   object-fit: contain;
   overflow: hidden;
 `
+
+export const ImgSurvey = styled.img`
+  width:90%;
+  height:90%;
+  object-fit: contain;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 30px;
+`
+
 export const SectionTitleIntro = styled.h2`
   font-weight: 600;
   font-size: ${(props) => props.main ? '35px' : '35px'};
@@ -130,7 +142,7 @@ export const SectionTitleIntroProblem = styled.h2`
   width: max-content;
   max-width: 100%;
   color: #D82682;
-  font-size: 15px;
+  font-size: 13px;
   margin-left: 30px;
   margin-bottom: -10px;
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
@@ -184,7 +196,7 @@ export const SectionTitleDescription1 = styled.h2`
 export const SectionTitleDescriptionProblem = styled.h2`
   font-weight: 400;
   // font-size: ${(props) => props.main ? '35px' : '35px'};
-  font-size: 14px;
+  font-size: 13px;
   // line-height: ${(props) => props.main ? '72px' : '56px'};
   line-height: 33px;
   width: max-content;
@@ -211,7 +223,7 @@ export const SectionTitleDescriptionProblem = styled.h2`
   }
 `
 
-// for problem statements
+// pink background for problem statements
 export const SectionProblem = styled.section`
   // display: ${(props) => props.grid ? "grid" : "flex" };
   // flex-direction: ${(props) => props.row ? "row" : "column" };
@@ -233,4 +245,19 @@ export const SectionProblem = styled.section`
     width: calc(100vw - 32px);
     flex-direction: column;
   }
+`
+export const GridContainer = styled.section`
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+padding: 3rem;
+// place-items: center;
+column-gap: 2rem;
+row-gap: 3rem;
+text-align: center;
+@media ${(props) => props.theme.breakpoints.sm} {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  padding-bottom: 0;
+}
 `
