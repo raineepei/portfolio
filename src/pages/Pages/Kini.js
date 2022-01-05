@@ -97,7 +97,7 @@ const Kini = () => (
         <SectionTitleDescription1>
             Allowing the user to sort their preference in finding these pieces of information helped us determine the information architecture of 
             the website design; how can we design the website to allow users to access the information they need without having them think too 
-            hard. Eventually, we want to tie this in with what we want the user’s first impression of Kini Koffee be the moment they see the site.
+            hard about where to look. Eventually, we want to tie this in with what we want the user’s first impression of Kini Koffee to be the moment they see the site.
         </SectionTitleDescription1>
         <SectionTitleDescription1 style={{color: '#D82682', fontWeight: 'bold', marginTop: '15px'}}>
             2. I interviewed 5 customers and 1 employee at Kini Koffee's Del Mar location.
@@ -130,8 +130,8 @@ const Kini = () => (
            d. What makes you want to go (back) to Kini Koffee?
         </DescriptionIndented>
         <SectionTitleDescription1>
-        This questions were primarily asked to understand their thought process of choosing to go to Kini Koffee vs. any other coffee shop in 
-        the area; what are the redeeming qualities of Kini Koffee that motivates them to choose them.
+        This questions were asked to understand users' thought process of choosing to go to Kini Koffee vs. any other coffee shop in 
+        the area; what are the redeeming qualities of Kini Koffee that motivates customers to choose Kini Koffee.
         </SectionTitleDescription1>
 
         <SectionTitleIntro>
@@ -181,7 +181,7 @@ const Kini = () => (
         </SectionTitleIntro>
         <ImgFeatureSorting src='../../images/Kini/featuresorting2.png' />
         <SectionTitleDescription1 style={{marginTop: '30px'}}>
-            The purpose of feature sorting was to narrow down the essential features by having users sort a multitude of features you would usually see on 
+            The purpose of feature sorting was to narrow down the essential features we want to showcase on the website by having users sort a multitude of features you would usually see on 
             a coffee shop website into 4 categories: 
         </SectionTitleDescription1>
         <DescriptionIndented>
@@ -226,16 +226,16 @@ const Kini = () => (
             → Location Page: Find the store hours for the drive-thru location [Both Prototype A and Prototype B]
         </DescriptionIndented>
         <DescriptionIndented>
-            Given that our team didn’t know there was a 2nd location until 2 weeks of researching Kini Koffee incessantly, it was important to highlights 
-            Kini Koffee’s drive-thru location. It was important for us to determine which layout allows users to easily differentiate the two to find the 
-            appropriate store hours especially that 6/7 users said hours were things they want to know right away,
+            Given that our team didn’t know there was a 2nd location until 2 weeks of researching Kini Koffee incessantly, it was important to highlight 
+            Kini Koffee’s drive-thru location and figure out which layout allows users to easily differentiate the two locations in order to find the 
+            appropriate store hours, especially since 6/7 users said store hours are things they want to know right away,
         </DescriptionIndented>
         <DescriptionIndented style={{color: '#D82682'}}>
             → Menu Page: Find a drink that you think you’d like and decide on an add-on or change you would like to make to the drink [Both Prototype A and Prototype B]
         </DescriptionIndented>
         <DescriptionIndented>
-            Given Kini Koffee’s specialty drinks that draws many customers back to the store, it was important to make sure users were able to quickly find
-            and access these menu items, especially prices since 6/7 users said item prices were things they want to know right away.
+            Given Kini Koffee’s specialty drinks draw many customers back to the store, it is vital that users are able to quickly find
+            and access these menu items, especially prices, since 6/7 users said item prices are things they want to know right away.
         </DescriptionIndented>
         <SectionTitleDescription1 style={{fontWeight: 'bold', fontStyle: 'italic', color: '#D82682'}}>
             Key Findings From This Task:
