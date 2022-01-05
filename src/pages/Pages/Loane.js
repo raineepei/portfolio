@@ -274,7 +274,7 @@ const Loane = () => (
     </Section>
 
 
-    <LinkColor href='/' style={{ display: 'flex', justifyContent: 'center' }}>
+    <LinkColor href='/#projects' style={{ display: 'flex', justifyContent: 'center' }}>
         <Button>
             GO BACK
         </Button>

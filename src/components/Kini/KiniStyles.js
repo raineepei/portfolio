@@ -400,3 +400,20 @@ export const LinkDoc = styled.button`
     border: 1px outset #D82682;
   }
 `
+export const GoBackButton = styled.button`
+  height:66px;
+  width:140px;
+  border: 1px outset black;
+  background-color: white;
+  font-family: Roboto;
+  font-style: italic;
+  font-size: 23px;
+  box-shadow: 6px 6px 0px;
+  text-decoration: underline;
+  &:hover {
+    color: #D82682;
+    opacity: 1;
+    box-shadow: 6px 6px 0px #D82682;
+    border: 1px outset #D82682;
+  }
+`

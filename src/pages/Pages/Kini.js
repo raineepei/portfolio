@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout } from '../../layout/Layout';
 import { KiniTitle, LinkList, LinkColumn, LinkTitle, BackgroundInfo, ImgOver, SectionTitleIntro, SectionTitleDescription, SectionTitleDescription1, 
 SectionProblem, SectionTitleIntroProblem, SectionTitleDescriptionProblem, ImgSurvey, GridContainer, DescriptionIndented,
-SectionQuote, Quote, ImgFeatureSorting, ToWebsite, LinkDoc } from '../../components/Kini/KiniStyles';
+SectionQuote, Quote, ImgFeatureSorting, ToWebsite, LinkDoc, GoBackButton } from '../../components/Kini/KiniStyles';
 import "@fontsource/roboto";
 
 import "@fontsource/roboto-mono"
@@ -333,6 +333,12 @@ const Kini = () => (
         <DescriptionIndented>
             And the Power Up Team, for putting together this opportunity!
         </DescriptionIndented>
+
+        <LinkColor href='/#projects' style={{ display: 'flex', justifyContent: 'center' }}>
+            <GoBackButton>
+                GO BACK
+            </GoBackButton>
+    </LinkColor>
 
     </Layout>
 
