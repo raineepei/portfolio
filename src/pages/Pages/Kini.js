@@ -2,14 +2,14 @@ import React from 'react';
 import { Layout } from '../../layout/Layout';
 import { KiniTitle, LinkList, LinkColumn, LinkTitle, BackgroundInfo, ImgOver, SectionTitleIntro, SectionTitleDescription, SectionTitleDescription1, 
 SectionProblem, SectionTitleIntroProblem, SectionTitleDescriptionProblem, ImgSurvey, GridContainer, DescriptionIndented,
-SectionQuote, Quote, ImgFeatureSorting } from '../../components/Kini/KiniStyles';
+SectionQuote, Quote, ImgFeatureSorting, ToWebsite, LinkDoc } from '../../components/Kini/KiniStyles';
 import "@fontsource/roboto";
 
 import "@fontsource/roboto-mono"
 import styled from 'styled-components'
 
 const LinkColor = styled.a`
-  color: black;
+  color: #D82682;
 `
 
 const Kini = () => (
@@ -43,12 +43,17 @@ const Kini = () => (
             My Role:
         </SectionTitleDescription1>
         <SectionTitleDescription1>
-            For this project, I was a UX Researcher; my primary responsibilities were to set up interview and testing guidelines, spearhead 
+            For this project (Jun 2021 - Sep 2021), I was a UX Researcher; my primary responsibilities were to set up interview and testing guidelines, spearhead 
             the research and interview process, build out testing plans and test-subject recruitment, and pull key insights to help inform 
             design decisions. I collaborated with the UX Designers when developing interview guidelines for testing prototypes and had my 
             other team mebers members help me with conducting interviews and surveys. Given the time frame, it was important to quickly figure
             out the questions our team needed answers to and the insights I needed to learn from research.
         </SectionTitleDescription1>
+        <LinkColor href='https://www.kinikoffeesd.com/'>
+            <ToWebsite>
+                Check out the website here!
+            </ToWebsite>
+        </LinkColor>
 
         <SectionTitleIntro>
             RESEARCH STATEMENT AND GOALS
@@ -232,7 +237,6 @@ const Kini = () => (
             Given Kini Koffee’s specialty drinks that draws many customers back to the store, it was important to make sure users were able to quickly find
             and access these menu items, especially prices since 6/7 users said item prices were things they want to know right away.
         </DescriptionIndented>
-
         <SectionTitleDescription1 style={{fontWeight: 'bold', fontStyle: 'italic', color: '#D82682'}}>
             Key Findings From This Task:
         </SectionTitleDescription1>
@@ -248,6 +252,11 @@ const Kini = () => (
         <DescriptionIndented>
             4. Career opportunities were not easily discoverable → Design pattern used to showcase careers needed revisions
         </DescriptionIndented>
+        <LinkColor href='https://docs.google.com/document/d/1a56og2KegNk7R8Mj9RijF6tQFf_0ZDZ1uOxU8_Jae8Y/edit?usp=sharing'>
+            <LinkDoc>
+                Interview Guidelines Document
+            </LinkDoc>
+        </LinkColor>
 
         <SectionTitleIntro>
             ANALYSIS AND SYNTHESIS PROCESS
@@ -279,40 +288,51 @@ const Kini = () => (
             These synthesized results helped the designers decide that they would prefer to use Prototype’s B menu layout in the final prototype.
         </SectionTitleDescription1>
         <ImgFeatureSorting src='../../images/Kini/figjam.png'/>
+        <LinkColor href='https://www.figma.com/file/P5nTPbn6jvE0K5kycZIStw/Research-Synthesis?node-id=0%3A1'>
+            <LinkDoc>
+                FigJam File
+            </LinkDoc>
+        </LinkColor>
+
+
 
         <SectionTitleIntro>
             REFLECTIONS
         </SectionTitleIntro>
-
-        <LinkList>
-            <LinkColumn>
-                <LinkTitle>
-                    Date
-                </LinkTitle>
-                <BackgroundInfo>
-                    Jun 2021 - Sep 2021
-                </BackgroundInfo>
-            </LinkColumn>
-            <LinkColumn>
-                <LinkTitle>
-                    Role
-                </LinkTitle>
-                <BackgroundInfo>
-                    UX Researcher
-                </BackgroundInfo>
-            </LinkColumn>
-            <LinkColumn>
-                <LinkTitle>
-                    Team
-                </LinkTitle>
-                <BackgroundInfo>
-                    Rainee Pei, Stella Seki, Deepika Vuppala, Edward De Leon, Chynna Tumalad
-                </BackgroundInfo>
-            </LinkColumn>             
-        </LinkList>
-
-
-
+        <SectionTitleDescription1 style={{fontWeight: 'bold', fontStyle: 'italic', color: '#D82682'}}>
+            To summarize my experience:
+        </SectionTitleDescription1>
+        <DescriptionIndented>
+            1. Working with an actual stakeholder is a much different experience than working on a school  project; learning to collaborate, communicate, 
+            and compromise with the client was a learning curve. The design process is very nuanced, and changes with each team and project you work with.
+        </DescriptionIndented>
+        <DescriptionIndented>
+            2. UX Research is the foundation of the design process. Without proper research, its easy to stray off track during the design process and 
+            start designing for the “wrong” problem. Research guides the designs and allows us to approach the problem intuitively and effectively based 
+            on both our client and customers.
+        </DescriptionIndented>
+        <DescriptionIndented>
+            3. It is more important to be able to analyze and synthesize the data you obtain during the research process. How can we utilize this 
+            information to guide us towards our designs or redesigns?
+        </DescriptionIndented>
+        <SectionTitleDescription1 style={{fontWeight: 'bold', fontStyle: 'italic', color: '#D82682'}}>
+            Thank You To:
+        </SectionTitleDescription1>
+        <DescriptionIndented>
+            My extremely talented team members: Stella Seki, Deepika Vuppala, Edward De Leon, Chynna Tumalad,
+        </DescriptionIndented>
+        <DescriptionIndented>
+            Our Mentors: Jennie Yoon, Lily Konings, and Bryant Lim,
+        </DescriptionIndented>
+        <DescriptionIndented>
+            Our user test participants,
+        </DescriptionIndented>
+        <DescriptionIndented>
+            Jewell, our client who kept us well-caffeinated with Kini Koffee's amazing drinks,
+        </DescriptionIndented>
+        <DescriptionIndented>
+            And the Power Up Team, for putting together this opportunity!
+        </DescriptionIndented>
 
     </Layout>
 

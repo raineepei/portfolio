@@ -359,3 +359,44 @@ export const Quote = styled.h2`
     max-width: 100%;
   }
 `
+
+export const ToWebsite = styled.button`
+  height:50px;
+  width:250px;
+  background-color: #D82682;
+  font-family: Roboto;
+  font-style: italic;
+  font-size: 16px;
+  margin-top: 20px;
+  color: white;
+  opacity: 1;
+  border: 1px outset #D82682;
+  cursor:pointer;
+  &:hover {
+    color: #D82682;
+    opacity: 1;
+    background-color: white;
+    box-shadow: 6px 6px 0px #D82682;
+    border: 1px outset #D82682;
+  }
+`
+export const LinkDoc = styled.button`
+  height:40px;
+  width:230px;
+  background-color: #D82682;
+  font-family: Roboto;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 20px;
+  color: white;
+  opacity: 1;
+  border: 1px outset #D82682;
+  cursor:pointer;
+  &:hover {
+    color: #D82682;
+    opacity: 1;
+    background-color: white;
+    box-shadow: 6px 6px 0px #D82682;
+    border: 1px outset #D82682;
+  }
+`

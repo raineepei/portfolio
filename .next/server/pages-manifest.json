@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/Pages/Kini": "pages/Pages/Kini.js",
-  "/Pages/Loane": "pages/Pages/Loane.js"
+  "/": "pages/index.js",
+  "/Pages/Kini": "pages/Pages/Kini.js"
 }

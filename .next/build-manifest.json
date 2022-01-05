@@ -14,15 +14,15 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/Pages/Kini": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/Pages/Kini.js"
-    ],
-    "/Pages/Loane": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Pages/Loane.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
