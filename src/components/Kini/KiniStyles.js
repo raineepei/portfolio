@@ -106,6 +106,17 @@ export const ImgSurvey = styled.img`
   margin-top: 30px;
 `
 
+export const ImgFeatureSorting = styled.img`
+  width:60%;
+  height:60%;
+  object-fit: contain;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 30px;
+`
+
 export const SectionTitleIntro = styled.h2`
   font-weight: 600;
   font-size: ${(props) => props.main ? '35px' : '35px'};
@@ -260,4 +271,91 @@ text-align: center;
   padding: 2rem;
   padding-bottom: 0;
 }
+`
+
+// for problem statements
+export const DescriptionIndented = styled.h2`
+  font-weight: 400;
+  // font-size: ${(props) => props.main ? '35px' : '35px'};
+  font-size: 13px;
+  // line-height: ${(props) => props.main ? '72px' : '56px'};
+  line-height: 33px;
+  width: max-content;
+  max-width: 100%;
+  color: black;
+  font-family: Roboto;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+  @media ${props => props.theme.breakpoints.md}{
+    font-size: ${(props) => props.main ? '56px' : '48px'};
+    line-height: ${(props) => props.main ? '56px' : '48px'};
+    margin-bottom: 12px;
+    padding: ${(props) => props.main ? '40px 0 12px' : '0'};
+  }
+  @media ${props => props.theme.breakpoints.sm}{
+    font-size: 32px;
+    line-height: 40px;
+    font-size: ${(props) => props.main ? '28px' : '32px'};
+    line-height: ${(props) => props.main ? '32px' : '40px'};
+    margin-bottom: 8px;
+    padding: ${(props) => props.main ? '16px 0 8px' : '0'};
+    max-width: 100%;
+  }
+`
+
+// pink background for problem statements
+export const SectionQuote = styled.section`
+  // display: ${(props) => props.grid ? "grid" : "flex" };
+  // flex-direction: ${(props) => props.row ? "row" : "column" };
+  // padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
+  // padding: 2rem;
+  margin: 0 auto;
+  // max-width: 3000px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+  background: white;
+  border-left: solid #D82682;
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: 24px 48px 0;
+    flex-direction: column;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: ${(props) => props.nopadding ? "0" : "16px 16px 0" } ;
+    width: calc(100vw - 32px);
+    flex-direction: column;
+  }
+`
+
+export const Quote = styled.h2`
+  font-weight: 400;
+  // font-size: ${(props) => props.main ? '35px' : '35px'};
+  font-size: 14px;
+  // line-height: ${(props) => props.main ? '72px' : '56px'};
+  line-height: 33px;
+//   width: max-content;
+  max-width: 100%;
+  color: black;
+  font-family: Roboto;
+  margin-left: 15px;
+  font-style: italic;
+  text-align: left;
+  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+  @media ${props => props.theme.breakpoints.md}{
+    font-size: ${(props) => props.main ? '56px' : '48px'};
+    line-height: ${(props) => props.main ? '56px' : '48px'};
+    margin-bottom: 12px;
+    padding: ${(props) => props.main ? '40px 0 12px' : '0'};
+  }
+  @media ${props => props.theme.breakpoints.sm}{
+    font-size: 32px;
+    line-height: 40px;
+    font-size: ${(props) => props.main ? '28px' : '32px'};
+    line-height: ${(props) => props.main ? '32px' : '40px'};
+    margin-bottom: 8px;
+    padding: ${(props) => props.main ? '16px 0 8px' : '0'};
+    max-width: 100%;
+  }
 `
