@@ -3,6 +3,5 @@
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
   "/": "pages/index.js",
-  "/Pages/Kini": "pages/Pages/Kini.js",
-  "/Pages/Loane": "pages/Pages/Loane.js"
+  "/Pages/Kini": "pages/Pages/Kini.js"
 }

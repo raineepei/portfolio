@@ -96,8 +96,8 @@ export const ImgOver = styled.img`
 `
 
 export const ImgSurvey = styled.img`
-  width:90%;
-  height:90%;
+  width:85%;
+  height:85%;
   object-fit: contain;
   overflow: hidden;
   margin-left: auto;
