@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: '1. DEPOP REDESIGN',
-    description: "A web redesign focused on improving price-comparison functionalities on secondhand e-commerce webistes to promote and encourage sustainable shopping",
+    description: "A web redesign focused on improving price-comparison functionalities on secondhand e-commerce webistes to encourage sustainable shopping",
     image: ' ',
     tags: ['React', 'WebRTC'],
     // source: 'Pages/Kini',
