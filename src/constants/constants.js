@@ -37,7 +37,7 @@ export const projects = [
   },
   {
     title: '3. SDSC - LOANE',
-    description: "Design and development of a student loans and budgeting app aimed to help students transition into financial independence. My first software engineering and design internship :-)",
+    description: "Design and development of a student loans and budgeting app aimed to help students transition into financial independence. My first design and software engineering internship :-)",
     image: ' ',
     tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'Pages/Loane',
