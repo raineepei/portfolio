@@ -28,18 +28,6 @@ const Kini = () => (
         their way to the nearby beaches.
         </SectionTitleDescription1>
         <SectionTitleDescription1 style={{color: '#D82682', fontWeight: 'bold'}}>
-            The Business Perspective:
-        </SectionTitleDescription1>
-        <SectionTitleDescription1>
-            Kini Koffee needs a place where all their information is centralized so customers can easily learn more about the business, drinks, and prices   
-        </SectionTitleDescription1>
-        <SectionTitleDescription1 style={{color: '#D82682', fontWeight: 'bold'}}>
-            For Customers of Kini Koffee:
-        </SectionTitleDescription1>
-        <SectionTitleDescription1>
-            People who are looking for coffee shops in the Del Mar area need access to attractive, unique features about Kini Koffee to encourage them to go there over any other coffee shop in the area
-        </SectionTitleDescription1>
-        <SectionTitleDescription1 style={{color: '#D82682', fontWeight: 'bold'}}>
             My Role:
         </SectionTitleDescription1>
         <SectionTitleDescription1>
@@ -64,7 +52,7 @@ const Kini = () => (
             think of the brand through reviews first and figure out what questions our temas need answered and what insights we hope to learn.
             To address both customer and our client needs, we created two problem statements that encompassed our goals for this project.
         </SectionTitleDescription1>
-        <SectionProblem style={{marginTop: '30px'}}> 
+        <SectionProblem style={{marginTop: '20px'}}> 
             <SectionTitleIntroProblem>
                 Business Problem Statement
             </SectionTitleIntroProblem>

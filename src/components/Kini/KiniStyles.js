@@ -185,7 +185,7 @@ export const SectionTitleDescription1 = styled.h2`
   max-width: 100%;
   color: black;
   font-family: Roboto;
-  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+  padding: ${(props) => props.main ? '58spx 0 16px' : '0'};
   @media ${props => props.theme.breakpoints.md}{
     font-size: ${(props) => props.main ? '56px' : '48px'};
     line-height: ${(props) => props.main ? '56px' : '48px'};
