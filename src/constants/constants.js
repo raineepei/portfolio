@@ -14,7 +14,7 @@ export const projects = [
     image: ' ',
     tags: ['React', 'ChatEngine', 'Firebase'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: 'https://apple.com',
     id: 1,
   },
   {
