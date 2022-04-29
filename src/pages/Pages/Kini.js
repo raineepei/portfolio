@@ -32,8 +32,8 @@ const Kini = () => (
         </SectionTitleDescription1>
         <SectionTitleDescription1>
             For this project (Jun 2021 - Sep 2021), I was a UX Researcher; my primary responsibilities were to set up interview and testing guidelines, spearhead 
-            the research and interview process, build out testing plans and test-subject recruitment, and pull key insights to help inform 
-            design decisions. I helped develop interview guidelines for testing prototypes, conducted interviews, and distributed surveys. Given the time frame, it was important to quickly figure
+            the research and interview process, build out testing plans and test-subject recruitment, as well as pull key insights to help inform 
+            design decisions. I also helped develop interview guidelines for testing prototypes, conducted interviews, and distributed surveys. Given the time frame, it was important to quickly figure
             out the questions our team needed answers to and the insights I needed to learn from research.
         </SectionTitleDescription1>
         <LinkColor href='https://www.kinikoffeesd.com/'>

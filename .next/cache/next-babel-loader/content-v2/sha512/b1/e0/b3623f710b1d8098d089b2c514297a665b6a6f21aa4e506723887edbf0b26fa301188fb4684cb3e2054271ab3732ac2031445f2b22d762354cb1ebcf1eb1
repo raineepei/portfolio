@@ -1,0 +1,1 @@
+{"ast":null,"code":"import styled from 'styled-components';\nexport const Container = styled.div`\nmax-width: 1280px;\nwidth: 100%;\nmargin: auto;\ntext-decoration: none\n`;","map":null,"metadata":{},"sourceType":"module"}
