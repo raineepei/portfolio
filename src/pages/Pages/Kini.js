@@ -249,7 +249,7 @@ const Kini = () => (
             ANALYSIS AND SYNTHESIS PROCESS
         </SectionTitleIntro>
         <SectionTitleDescription1>
-            I created a synthesis of all our reserach findings on a FigJam page. It consolidated information from our feature testing, A/B usability 
+            I created a synthesis of all our research findings on a FigJam page. It consolidated information from our feature testing, A/B usability 
             testing, and prototype-specific questions. Sorting feedback on each prototype into suggestions, expectations, likes, and confusions helped the
             designers decide which features from each prototype we want to implement into the final prototype, and what additional features we want to add.
         </SectionTitleDescription1>
