@@ -8,7 +8,7 @@ export const KiniTitle = styled.h2`
   width: max-content;
   max-width: 100%;
   color: #D82682;
-  margin-bottom: 10px;
+  margin-bottom: 10.1px;
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
   @media ${props => props.theme.breakpoints.md}{
     font-size: ${(props) => props.main ? '56px' : '48px'};
