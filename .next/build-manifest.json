@@ -19,20 +19,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
-    "/Pages/About": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Pages/About.js"
-    ],
     "/Pages/Analog": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/Pages/Analog.js"
-    ],
-    "/Pages/Kini": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Pages/Kini.js"
     ],
     "/Pages/Loane": [
       "static/chunks/webpack.js",
